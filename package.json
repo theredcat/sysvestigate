@@ -1,0 +1,36 @@
+{
+  "name": "sysvestigate",
+  "version": "0.0.0",
+  "description": "Plug well-known system-investigation tool together",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theredcat/sysvestigate.git"
+  },
+  "dependencies": {
+    "blessed": "0.0.44",
+    "blessed-contrib": "1.0.9",
+    "jquery": "^2.1.3",
+    "jsdom": "^4.0.2"
+  },
+  "keywords": [
+    "apache",
+    "mysql",
+    "tool",
+    "strace",
+    "system",
+    "investigation"
+  ],
+  "author": "Nathan Delhaye",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/theredcat/sysvestigate/issues"
+  },
+  "homepage": "https://github.com/theredcat/sysvestigate"
+}
